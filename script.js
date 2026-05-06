@@ -1,15 +1,20 @@
 function login(){
 
-    let username = document.getElementById("username").value;
-    let password = document.getElementById("password").value;
+    let username =
+    document.getElementById("username").value;
 
-    // Correct username and password
+    let password =
+    document.getElementById("password").value;
+
+
     let correctUsername = "abin";
     let correctPassword = "1234";
 
-    if(username === correctUsername && password === correctPassword){
 
-        // Move to next page
+    if(username === correctUsername &&
+       password === correctPassword){
+
+        // Move to dashboard page
         window.location.href = "dashboard.html";
 
     }else{
@@ -19,12 +24,13 @@ function login(){
 
     }
 
-    function nextPage(){
+}
 
-    // Move to school classes page
-    
+
+
+// Move to 3rd page
+function nextPage(){
+
     window.location.href = "schoolclasses.html";
 
 }
-}
-
