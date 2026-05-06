@@ -15,6 +15,7 @@ function login(){
        password === correctPassword){
 
         // Move to dashboard page
+
         window.location.href = "dashboard-page2.html";
 
     }else{
@@ -26,31 +27,30 @@ function login(){
 
 }
 
-// Move to 3rd page
-function nextPage3(){
+
+
+function nextPage2(){
     window.location.href = "class-page3.html";
 
 }
 
-// Move to 4th page
+
+
+function nextPage3(){
+    window.location.href = "divisionpage-page4.html";
+}
+
 
 function nextPage4(){
     window.location.href = "divisionpage-page4.html";
 }
-// move to 5th page
 
-function next(){
-    window.location.href = "deatilspage.html";
+function nextPage5(){
+    window.location.href = "studentdeatils-page5.html";
 }
 
-// move to 6th page
 
-function next(){
-    window.location.href = "studentdeatils.html";
-}
 
-//Move to 7th page
-
-function next(){
-    window.location.href = "parentesdeatils.html";
+function nextPage6(){
+    window.location.href = "deatilspage-pag6.html";
 }
