@@ -42,3 +42,9 @@ function next(){
 function next(){
     window.location.href = "deatilspage.html";
 }
+
+// move to 6th page
+
+function next(){
+    window.location.href = "studentdeatils.html";
+}
