@@ -18,4 +18,13 @@ function login(){
         "Wrong Username or Password";
 
     }
+
+    function nextPage(){
+
+    // Move to school classes page
+    
+    window.location.href = "schoolclasses.html";
+
 }
+}
+
