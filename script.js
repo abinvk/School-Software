@@ -26,11 +26,14 @@ function login(){
 
 }
 
-
-
 // Move to 3rd page
 function nextPage(){
-
     window.location.href = "schoolclasses.html";
 
+}
+
+// Move to 4th page
+
+function next(){
+    window.location.href = "divisionpage.html";
 }
