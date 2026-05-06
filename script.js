@@ -45,12 +45,14 @@ function nextPage4(){
     window.location.href = "divisionpage-page4.html";
 }
 
-function nextPage5(){
+function nextPage4(){
     window.location.href = "studentdeatils-page5.html";
 }
 
-
+function nextPage5(){
+    window.location.href = "deatilspage-pag6.html";
+}
 
 function nextPage6(){
-    window.location.href = "deatilspage-pag6.html";
+    window.location.href = "parentesdeatils-page7.html";
 }
