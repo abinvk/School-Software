@@ -37,3 +37,8 @@ function nextPage(){
 function next(){
     window.location.href = "divisionpage.html";
 }
+// move to 5th page
+
+function next(){
+    window.location.href = "deatilspage.html";
+}
