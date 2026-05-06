@@ -48,3 +48,9 @@ function next(){
 function next(){
     window.location.href = "studentdeatils.html";
 }
+
+//Move to 7th page
+
+function next(){
+    window.location.href = "parentesdeatils.html";
+}
