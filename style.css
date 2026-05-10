@@ -13,7 +13,7 @@ body{
     align-items: center;
 }
 
-/* Login Page */
+/* Login Page = page  */
 
 .login-box{
     background-color: rgba(255, 255, 255, 0.9);
@@ -48,4 +48,27 @@ p{
     text-align: center;
     margin-top: 20px;
     color: #e11010;
+}
+
+/* page 2 */
+
+.container{
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 500px;
+    height: 300px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+button.page2{
+    margin-top: 20px;
+    background-color: #4ffe58;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
 }
