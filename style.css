@@ -53,6 +53,8 @@ p{
 
 /* page 2 */
 
+
+
 .container{
     background-color: rgba(255, 255, 255, 0.9);
     width: 500px;
@@ -108,9 +110,32 @@ nav img{
     border-radius: 5%;
     margin-left: 10px;
 }
-   
-    
+ 
 
+img.image1{
+    width: 300px;
+    height: 200px;
+    padding-left: 50px;
+    padding-bottom: 70px;
+}
 
+img.image2{
+    width: 300px;
+    height: 200px;
+}
 
+img.image3{
+    width: 300px;
+    height: 200px;
+}
 
+img.image4{
+    width: 300px;
+    height: 200px;
+}
+
+img.image5{
+    width: 300px;
+    height: 200px;
+
+}
