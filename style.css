@@ -55,95 +55,88 @@ p{
 
 
 
-.container{
-    background-color: rgba(255, 255, 255, 0.9);
-    width: 500px;
-    height: 300px;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
-    text-align: center;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f2f2f2;
+    padding:30px;
 }
 
 
 
-button.page2{
-    margin-top: 20px;
-    background-color: #4ffe58;
-    border: none;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    border: none;
+/* Navbar */
 
+.navbar{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    background-color: #e11010;
 }
 
-img{
-    width: 100%;
-    height: auto;
-    margin-top: 20px;
-    
+.logo{
+    width:70px;
+    height:70px;
+    border:2px solid black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:bold;
 }
 
-nav{
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    background-color: black;
-    padding: 10px;
-    border-radius: 15px;
-    width: 100%;
-    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
-    padding: 15px 30px;
-}       
+/* Heading */
 
-nav h3{
-    margin: 0;
-    font-size: 18px;
-    color: white;
+.heading{
+    text-align:center;
+    margin-top:30px;
 }
 
-nav img{
-    width: 100px;
-    height: 100px;
-    border-radius: 5%;
-    margin-left: 10px;
-}
- 
-
-.image1{
-    width: 300px;
-    height: 200px;
-    padding-left: 50px;
-    margin-right: 850px;
-    margin-left: 370px;
-    margin-top: 650px;
+.heading h1{
+    font-size:40px;
 }
 
-#image2{
-    width: 300px;
-    height: 200px;
+/* Gallery */
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:50px;
+    margin-top:50px;
+    justify-items:center;
 }
 
-#image3{
-    width: 300px;
-    height: 200px;
+/* Card */
+
+.card{
+    text-align:center;
 }
 
-#image4{
-    width: 300px;
-    height: 200px;
+.card img{
+    width:220px;
+    height:160px;
+    object-fit:cover;
+    border:2px solid black;
 }
 
-#image5{
-    width: 300px;
-    height: 200px;
-
+.card p{
+    margin-top:10px;
+    font-size:18px;
 }
-h1{
-    color: white;
-    font-size: 24px;
-    margin-top: 20px;
-    text-align: center;   
+
+/* Button */
+
+.button-box{
+    margin-top:60px;
+    margin-left:80px;
+}
+
+button{
+    width:120px;
+    height:45px;
+    font-size:20px;
+    cursor:pointer;
 }
