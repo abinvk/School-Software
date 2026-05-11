@@ -56,3 +56,8 @@ function nextPage5(){
 function nextPage6(){
     window.location.href = "parentesdeatils-page7.html";
 }
+
+function openClass(className){
+    localStorage.setItem("selectedClass", className);
+    window.location.href = "divisionpage-page4.html";
+}
