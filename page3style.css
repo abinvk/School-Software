@@ -71,3 +71,8 @@ body{
     top: -80px;
     right: -60px;
 }
+
+.class-card:hover{
+   transform: translateY(-10px) scale(1.03);
+   background: linear-gradient(145deg,#2563ed,#1d4ed8);
+}
