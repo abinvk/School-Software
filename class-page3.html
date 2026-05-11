@@ -4,27 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page 3</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="page3style.css">
 </head>
 <body>
 
-    <div class="clasess">
-        <h1>classes</h1>
-        <button class="page3">class-1</button>
-        <button class="page3">class-2</button>
-        <button class="page3">class-3</button>
-        <button class="page3">class-4</button>
-        <button class="page3">class-5</button>
-        <button class="page3">class-6</button>
-        <button class="page3">class-7</button>
-        <button class="page3">class-8</button>
-        <button class="page3">class-9</button>
-        <button class="page3">class-10</button>
+    <div class="container">
+
+        <div class="top-sections">
+        <h1>Classes</h1>
+        <p>Select a class to view divisions</p>
+
+        <div class="class-grid">
+            <button class="class-card"
+                onclick="openClass('Class 1')">
+                <span >Class</span>
+                <h2>1</h2>
+            </button>
+        </div>
+
+        </div>
+
     </div>
-    
-    <button class="page3" onclick="nextPage3()">
-        next
-    </button>
+
+
+
+
+
+
     <script src="script.js"></script>
 </body>
 </html>
