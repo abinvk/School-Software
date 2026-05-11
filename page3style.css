@@ -76,3 +76,10 @@ body{
    transform: translateY(-10px) scale(1.03);
    background: linear-gradient(145deg,#2563ed,#1d4ed8);
 }
+
+.class-card span{
+    display: block;
+    font-size: 24px;
+    margin-top: 50px;
+    letter-spacing: 1px;
+}
