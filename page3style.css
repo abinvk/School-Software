@@ -36,3 +36,14 @@ body{
     font-size: 45px;
     margin-bottom: 10px;
 }
+
+.top-sections p{
+    color: #cbd5e1;
+    font-size: 18px;
+}
+
+.class-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,
+    minmax(200px, 1fr));
+}
