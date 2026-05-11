@@ -46,4 +46,18 @@ body{
     display: grid;
     grid-template-columns: repeat(auto-fit,
     minmax(200px, 1fr));
+    gap: 25px;
+}
+
+.class-card{
+    height: 220px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(145deg,#1e293b,#334155);
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
