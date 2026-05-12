@@ -27,19 +27,14 @@ function login(){
 
 }
 
-
-
 function nextPage2(){
     window.location.href = "class-page3.html";
 
 }
 
-
-
 function nextPage3(){
     window.location.href = "divisionpage-page4.html";
 }
-
 
 function nextPage4(){
     window.location.href = "divisionpage-page4.html";
