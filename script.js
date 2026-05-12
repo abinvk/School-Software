@@ -6,10 +6,8 @@ function login(){
     let password =
     document.getElementById("password").value;
 
-
     let correctUsername = "abin";
     let correctPassword = "1234";
-
 
     if(username === correctUsername &&
        password === correctPassword){
@@ -24,12 +22,10 @@ function login(){
         "Wrong Username or Password";
 
     }
-
 }
 
 function nextPage2(){
     window.location.href = "class-page3.html";
-
 }
 
 function nextPage3(){
