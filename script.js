@@ -52,3 +52,9 @@ function openClass(className){
     localStorage.setItem("selectedClass", className);
     window.location.href = "divisionpage-page4.html";
 }
+
+function openPage(division){
+
+  window.location.href = division.toLowerCase() + ".html";
+
+}
