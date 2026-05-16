@@ -1,0 +1,99 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  min-height:100vh;
+  background: linear-gradient(135deg,#0f172a,#1e293b,#334155);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:30px;
+}
+
+.container{
+  width:100%;
+  max-width:1200px;
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(12px);
+  border:1px solid rgba(255,255,255,0.1);
+  border-radius:25px;
+  padding:40px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+}
+
+.title{
+  text-align:center;
+  color:white;
+  font-size:40px;
+  font-weight:700;
+  margin-bottom:40px;
+  letter-spacing:2px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(160px,1fr));
+  gap:25px;
+}
+
+.division-btn{
+  height:120px;
+  border:none;
+  border-radius:22px;
+  font-size:38px;
+  font-weight:700;
+  cursor:pointer;
+  color:white;
+  background: linear-gradient(135deg,#3b82f6,#2563eb);
+  transition:0.3s;
+  box-shadow:0 8px 20px rgba(37,99,235,0.4);
+  position:relative;
+  overflow:hidden;
+}
+
+.division-btn::before{
+  content:'';
+  position:absolute;
+  width:180%;
+  height:180%;
+  background:rgba(255,255,255,0.15);
+  transform:rotate(45deg);
+  top:-120%;
+  left:-120%;
+  transition:0.5s;
+}
+
+.division-btn:hover::before{
+  top:-20%;
+  left:-20%;
+}
+
+.division-btn:hover{
+  transform:translateY(-8px) scale(1.03);
+  box-shadow:0 15px 30px rgba(37,99,235,0.6);
+}
+
+.division-btn:active{
+  transform:scale(0.95);
+}
+
+@media(max-width:768px){
+
+  .division-btn{
+    height:100px;
+    font-size:30px;
+  }
+
+  .title{
+    font-size:30px;
+  }
+
+  .container{
+    padding:25px;
+  }
+
+}
